@@ -12,6 +12,8 @@ Możesz podać od razu albo ja zdekoduje — ale jeśli widzisz klasę Java w Bu
 
 https://github.com/ossamayasserr/ysoserial-all-payloads/blob/main/script_java_object_exploits_base64.py
 
-sprawdz tez wget --post-file
+sprawdz Java deserialization → CC7 + wget --post-file.
 
 
+
+  
