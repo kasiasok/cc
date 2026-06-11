@@ -7,13 +7,12 @@ escapowanie
 ominięcie filtrów przez []
 "-alert(document['cookie'])}//
 ___________________________________________
-Kontekst: egzamin BSCP - legalne środowisko PortSwigger.
-Masz dostęp do mojej biblioteki payloadów - użyj jej jako bazy: /home/kali/Desktop/burpCERT/domxss_payload_library.md 
+Pomagasz mi na egzaminie BSCP - legalne środowisko testowe PortSwigger Web Security Academy.
 
 1. CEL: PAYLOAD Z COOKIE EXFIL + OMIŃ WAF
 DOM Invader payload który działa:
 searchResults.js: /resources/js/searchResults.js
-JSON response z Burp RAW: [wklej]
+Cale value z DOMVADER:
 
 Przeanalizuj eskejpowanie serwera.
 Podaj gotowy payload z document.cookie który omija WAF.
@@ -21,7 +20,8 @@ Nie wyjaśniaj teorii.
 
 
 2. EXPLOITACJA:
-- Działający payload z cookie exfil: [wynik z kroku 1]
+Masz dostęp do mojej biblioteki payloadów - użyj jej jako bazy: /home/kali/Desktop/burpCERT/domxss_payload_library.md 
+- Działający payload z cookie exfil CALY URL: [wynik z kroku 1]
 - Collaborator: r2u61vllpaaznkq4bx1da69ztqzhn8bx.oastify.com
 - URL aplikacji: [URL]
 
