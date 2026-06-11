@@ -1,0 +1,17 @@
+1. Pełny request z Burpa
+Endpoint + wszystkie nagłówki + cookie z payloadem (tak jak wysłałeś — to idealne)
+
+2. Dekodowany obiekt (opcjonalnie)
+Możesz podać od razu albo ja zdekoduje — ale jeśli widzisz klasę Java w Burp Decoder, wklej
+
+3. Cel ataku
+- odczyt pliku [SCIEZKA]
+
+4. Adres Collaboratora — już wiem że używasz .oastify.com
+
+
+https://github.com/ossamayasserr/ysoserial-all-payloads/blob/main/script_java_object_exploits_base64.py
+
+sprawdz tez wget --post-file
+
+
