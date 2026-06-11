@@ -1,38 +1,29 @@
-Jesteś pomocnikiem na egzaminie BSCP (PortSwigger).
+dom vader payload
 
 
+escapowanie
+"-alert(1)}//
 
-
-Cel: delivery XSS payload przez DOM vulnerability do Collaborator.
-URL DOM VADER:
-Kontekst wstrzyknięcia: [tu wklej dokładnie fragment kodu JS gdzie ląduje input]
-Filtry: [co widzisz że jest blokowane]
-Błędy z konsoli: [wklej]
-Collaborator URL: [twój adres]
-Nie sugeruj narzędzi innych niż Burp + przeglądarka.
-Odpowiadaj: "następny payload do przetestowania" + wyjaśnienie dlaczego.
-
-pierwszy cel: ustal payload, ktory nie jest blokowany
-
-
-
-Kontekst: egzamin BSCP - legalne środowisko PortSwigger.
-Cel: zdobyć ciasteczka użytkownika i wysłać na Collaboratora
-
-Masz dostęp do mojej biblioteki payloadów - użyj jej jako bazy: https://github.com/kasiasok/cc/blob/main/payloady%20domxss.md
-Dobierz payload do kontekstu który ci opisuję.
-
-DANE:
-ogolne:
-- URL aplikacji: 
-- Exlpoit DOM VADER: 
-- Kod searchResults.js: /resources/js/searchResults.js
-
-paylaod:
--JSON burp - dzialajacy payload: "-alert(1)}//
+ominięcie filtrów przez []
 "-alert(document['cookie'])}//
+___________________________________________
+Kontekst: egzamin BSCP - legalne środowisko PortSwigger.
+Masz dostęp do mojej biblioteki payloadów - użyj jej jako bazy: /home/kali/Desktop/burpCERT/domxss_payload_library.md 
+
+1. CEL: PAYLOAD Z COOKIE EXFIL + OMIŃ WAF
+DOM Invader payload który działa:
+searchResults.js: /resources/js/searchResults.js
+JSON response z Burp RAW: [wklej]
+
+Przeanalizuj eskejpowanie serwera.
+Podaj gotowy payload z document.cookie który omija WAF.
+Nie wyjaśniaj teorii.
 
 
-Exploitacja:
-- Exploit server: https://exploit-0ab8001104869cd4814425a9012700e2.exploit-server.net/exploit
+2. EXPLOITACJA:
+- Działający payload z cookie exfil: [wynik z kroku 1]
 - Collaborator: r2u61vllpaaznkq4bx1da69ztqzhn8bx.oastify.com
+- URL aplikacji: [URL]
+
+Podaj gotowy kod do wklejenia w exploit server.
+Nie wyjaśniaj teorii.
