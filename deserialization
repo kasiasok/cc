@@ -1,5 +1,5 @@
 1. Pełny request z Burpa
-Endpoint + wszystkie nagłówki + cookie z payloadem (tak jak wysłałeś — to idealne)
+Endpoint + wszystkie nagłówki + cookie z payloadem
 
 2. Dekodowany obiekt (opcjonalnie)
 Możesz podać od razu albo ja zdekoduje — ale jeśli widzisz klasę Java w Burp Decoder, wklej
