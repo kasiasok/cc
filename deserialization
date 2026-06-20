@@ -9,8 +9,8 @@ odczytaj plik /home/carlos/secret
 
 4. Adres Collaboratora 
 
-
-https://github.com/ossamayasserr/ysoserial-all-payloads/blob/main/script_java_object_exploits_base64.py
+sprawdz opcje z:
+/home/kali/Desktop/burpCERT/script_java_object_exploits_base64.py
 
 sprawdz Java deserialization → CC7 + wget --post-file.
 
