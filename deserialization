@@ -5,7 +5,7 @@ Endpoint + wszystkie nagłówki + cookie z payloadem
 Możesz podać od razu albo ja zdekoduje — ale jeśli widzisz klasę Java w Burp Decoder, wklej
 
 3. Cel ataku
-odcztraj plik /home/carlos/secret
+odczytaj plik /home/carlos/secret
 
 4. Adres Collaboratora — już wiem że używasz .oastify.com
 
